@@ -1,0 +1,40 @@
+* {
+	box-sizing: content-box;
+}
+
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand p {
+	font-size: 0.7em;
+	color: black;
+}
+
+.navbar-brand h1 {
+	margin: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.contentBox {
+	background-color: grey;
+}
+
+.contentBox span {
+	display: inline-block;
+	margin: 20px;
+}
+
+.sectionTitle {
+	text-align: center;
+	padding-top: 15px;
+}
