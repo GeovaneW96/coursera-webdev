@@ -1,0 +1,82 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	font-weight: 400;
+}
+
+header {
+	background-color: rgba(0, 85, 170, 0.8);
+}
+
+footer {
+	background-color: rgba(0, 85, 170, 0.8);
+	color: #fff;
+}
+
+#landing {
+	width: 100%;
+}
+
+/*#landing::after {
+	display: block;
+	position: absolute;
+	font-family: FontAwesome;
+	content: "\f107";
+	font-size: 60px;
+	font-size: 3.75rem;
+	font-weight: 200;
+	line-height: 60px;
+	color: #fff;
+	left: 50%;
+	margin-left: -19.5px;
+	bottom: 0;
+	-webkit-animation: btn-arrow-y 1000ms ease-in-out infinite;
+	animation: btn-arrow-y 1000ms ease-in-out infinite;
+}
+*/
+
+
+.nav-item {
+	padding: .75rem;
+}
+
+.nav-item a {
+	color: #fff;
+}
+
+.f_right {
+	border-left: 1px solid #fff;
+}
+
+.a_logo {
+	width: 100px;
+	margin-bottom: 30px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.bottom {
+	background-color: rgba(0, 85, 170, 1);
+}
+
+footer ul {
+	list-style: none;
+	padding-left: 5px;
+}
+
+footer h6 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin-top: 10px;
+}
+
+footer p {
+	font-family: 'Lato';
+}
