@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Optix</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/solid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
-
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/media_queries.css">
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<header>
-		<div class="container">
-			<nav class="navbar navbar-expand-lg">
-				<a class="navbar-brand" href="#"><img src="img/Optix_Logo_Hor_Small_White.png"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-md navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="img/Optix_Logo_Hor_Small_White.png" class="n_optixLogo">
+				</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+				
+				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
 							<a class="nav-link" href="#">Início</a>
@@ -38,41 +44,254 @@
 						</li>
 					</ul>
 				</div>
-			</nav>
-		</div>
+			</div>
+		</nav>
 	</header>
+
 	<div id="landing">
 		<img class="w-100" src="img/Optix_CoverPhoto.jpg">
 	</div>
+
 	<section id="feature">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					
-				</div> 
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card w-100 h-100">
+					<div class="card-body">
+						<div class="row p-1">
+							<div class="col-8">
+								<strong><h5 class="card-title">Optix SOS app</h5></strong>
+							</div>
+							<div class="col-4">
+								<i class="fas fa-mobile-alt fa-2x"></i>
+							</div>
+						</div>
+						<p class="card-text">Baixe a nova ferramenta de uso profissional para atendimento emergencial:</p>
+						<div class="row p-1">
+							<div class="col-6">
+								<a href="https://itunes.apple.com/br/app/optix-sos/id1166315629?l=en&mt=8">
+									<img src="http://optixpacs.com.br/wp-content/uploads/2017/07/BadgeAppStore.png" class="badgeIcon">
+								</a>
+							</div>
+							<div class="col-6">
+								<a href="https://play.google.com/store/apps/details?id=com.optix.optixsos">
+									<img src="http://optixpacs.com.br/wp-content/uploads/2017/07/BadgeGooglePlay.png" class="badgeIcon">
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card w-100 h-100">
+					<div class="card-body">
+						<div class="row p-1">
+							<div class="col-8">
+								<strong><h5 class="card-title">Optix One</h5></strong>
+							</div>
+							<div class="col-4">
+								<i class="fas fa-list-alt fa-2x"></i>
+							</div>
+						</div>
+						<p class="card-text">Novo sistema Optix One.</p>
+						<div class="h-auto">
+							<a href="https://optixone.com.br" target="_blank" class="btn btn-primary float-left">Acesse</a>
+						</div>
 
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card w-100">
+					<div class="card-body">
+						<div class="row p-1">
+							<div class="col-8">
+								<strong><h5 class="card-title">Suporte Remoto Optix</h5></strong>
+							</div>
+							<div class="col-4">
+								<i class="fas fa-wrench fa-2x"></i>
+							</div>
+						</div>
+						<p class="card-text">Baixe aqui o móulo de Suporte Remoto da Optix para Windows, Mac e Linux.</p>
+						<a href="https://optixone.com.br" target="_blank" class="btn btn-primary">Download</a>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card w-100 h-100">
+					<div class="card-body">
+						<div class="row p-1">
+							<div class="col-8">
+								<strong><h5 class="card-title">Consulta de exames</h5></strong>
+							</div>
+							<div class="col-4">
+								<i class="fas fa-file-alt fa-2x"></i>
+							</div>
+						</div>
+						<p class="card-text">Consulte o resultado de exames médicos aqui, mediante código de acesso.</p>
+						<a href="http://optixone.com.br/dist/home.html" target="_blank" class="btn btn-primary">Consultar</a>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card w-100 h-100">
+					<div class="card-body">
+						<div class="row p-1">
+							<div class="col-8">
+								<strong><h5 class="card-title">Quem somos</h5></strong>
+							</div>
+							<div class="col-4">
+								<i class="fas fa-file-alt fa-2x"></i>
+							</div>
+						</div>
+						<p class="card-text">Conheça mais a respeito da Optix. </p>
+						<a href="https://optixone.com.br" target="_blank" class="btn btn-primary">Mais informações</a>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card w-100 h-100">
+					<div class="card-body">
+						<div class="row p-1">
+							<div class="col-8">
+								<strong><h5 class="card-title">Contato</h5></strong>
+							</div>
+							<div class="col-4">
+								<i class="fas fa-phone fa-2x"></i>
+							</div>
+						</div>
+						<p class="card-text">Contato para vendas e suporte online aqui. </p>
+						<a href="https://optixone.com.br" target="_blank" class="btn btn-primary">Contate-nos</a>
+					</div>
+				</div>
 			</div>
+
 		</div>
 	</section>
+	<div id="carousel">
+		<div class="container-fluid text-center mt-5 mb-5">
+			<div class="row mx-auto my-auto">
+				<div id="clientsCarousel" class="carousel carousel-fade slide w-100" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div class="row">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/clinica_santo_antonio_ss_ltda.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radson.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/clinoson.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/unimed_pelotas.png">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radson.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/clinoson.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/unimed_pelotas.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/aesc_hospital_mae_de_deus.png">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">								
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/clinoson.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/unimed_pelotas.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/aesc_hospital_mae_de_deus.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/crol_consultorio_radiologico_dr_carlos_osorio_lopes_ltda.png">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/unimed_pelotas.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/aesc_hospital_mae_de_deus.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/crol_consultorio_radiologico_dr_carlos_osorio_lopes_ltda.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/doctor_clin_instituto_de_assistencia_a_saude.png">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/aesc_hospital_mae_de_deus.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/crol_consultorio_radiologico_dr_carlos_osorio_lopes_ltda.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/doctor_clin_instituto_de_assistencia_a_saude.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_ernesto_dorneles.png">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/crol_consultorio_radiologico_dr_carlos_osorio_lopes_ltda.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/doctor_clin_instituto_de_assistencia_a_saude.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_ernesto_dorneles.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_regina.png">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">			
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/doctor_clin_instituto_de_assistencia_a_saude.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_ernesto_dorneles.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_regina.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/indic_instituto_de_diag_por_imagem_de_curitiba_ss_ltda.jpg">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">			
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_ernesto_dorneles.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_regina.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/indic_instituto_de_diag_por_imagem_de_curitiba_ss_ltda.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radicom_centro_de_radiologia.jpg">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">			
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radiologica_diagnostico_por_imagem.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_regina.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/indic_instituto_de_diag_por_imagem_de_curitiba_ss_ltda.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radicom_centro_de_radiologia.jpg">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">			
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/resson.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_regina.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/indic_instituto_de_diag_por_imagem_de_curitiba_ss_ltda.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radicom_centro_de_radiologia.jpg">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">			
+								
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/hospital_regina.png">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/indic_instituto_de_diag_por_imagem_de_curitiba_ss_ltda.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radicom_centro_de_radiologia.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/sir_servico_integrado_de_radiologia.jpg">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">			
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/indic_instituto_de_diag_por_imagem_de_curitiba_ss_ltda.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/radicom_centro_de_radiologia.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/sir_servico_integrado_de_radiologia.jpg">
+								<img class="d-inline-block col-3 img-fluid" src="img/clientes/sapiranga.png">
+							</div>
+						</div>
+
+					</div>
+					<a class="carousel-control-prev" href="#clientsCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="carousel-control-next" href="#clientsCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Próximo</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<footer class="panel-footer">
 		<div class="container">
 			<div class="row pt-2 pb-2">
-				<div class="col-3 border-right">
-					<img src="img/Optix_Logo_Hor_Small_White.png" class="mb-3">
-					<span>Uma empresa com 12 anos de experiência em soluções na área de radiologia, colaborando com sua empresa para facilitar os processos de captação de imagens.</span>
+				<div class="col-sm-12 col-md-3 f_optix">
+					<img src="img/Optix_Logo_Hor_Small_White.png" class="f_optixLogo">
+					<span class="f_optixDesc">Uma empresa com 12 anos de experiência em soluções na área de radiologia, colaborando com sua empresa para facilitar os processos de captação de imagens.</span>
 				</div>
-				<div class="col-5">
+				<div class="col-sm-12 col-md-5 f_contact">
 					<h6>CONTATO</h6>
 					<ul>
-						<li>Celular: +55 (51) 9876 5757</li>
-						<li>Telefone: +55 (51) 3072 1816</li>
-						<li><a href="mailto:contato@optixpacs.com">contato@optixpacs.com</a></li>
-						<li>Porto Alegre/RS</li>
+						<li><i class="fas fa-phone mr-2"></i>Celular: +55 (51) 9876 5757</li>
+						<li><i class="fas fa-phone mr-2"></i>Telefone: +55 (51) 3072 1816</li>
+						<li><i class="fas fa-envelope mr-2"></i><a href="mailto:contato@optixpacs.com">contato@optixpacs.com</a></li>
+						<li><i class="fas fa-map-marker-alt mr-2"></i>Porto Alegre/RS</li>
 					</ul>
 				</div>
-				<div class="col-4 f_right">
+				<div class="col-sm-12 col-md-4 f_anvisa">
 					<img src="img/Anvisa.jpg" class="a_logo">
-					<p>Os produtos da Optix Imagens Médicas são registrados na ANVISA sob nº <a href="https://consultas.anvisa.gov.br/#/saude/25351243372201998/">81733870001</a> e obedecem às regulamentações vigentes da Vigilância Sanitária Nacional e ao enquadramento de software para a saúde, conforme as Resoluções da Diretoria Colegiada <a href="http://portal.anvisa.gov.br/documents/10181/2718376/RDC_185_2001_COMP.pdf/137bc575-8352-4f9a-9afb-e9a5dd1b8eb3">185/2001</a>, <a href="http://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2013/rdc0017_28_03_2013.html">17/2013</a> e <a href="http://portal.anvisa.gov.br/documents/33880/2568070/RDC_40_2015.pdf/ccfa7249-e8c0-469b-969a-b0844b09a8ce">40/2015</a>.</p>
+					<p>Os produtos da Optix Imagens Médicas são registrados na ANVISA.</p>
 				</div>
 			</div>
 		</div>

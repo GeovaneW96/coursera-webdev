@@ -1,0 +1,93 @@
+/* Telefones em landscape e abaixo */
+@media (max-width: 480px) { 
+	.badgeIcon {
+		height: 48px;
+		width: auto;
+	}
+	.f_optix, .f_contact {
+		border-bottom: 1px solid #fff;
+		margin-bottom: 20px;
+	}
+
+	.f_optixDesc {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.f_optixLogo {
+		display: block;
+	}
+ }
+
+
+/* SM */
+@media (max-width: 767px) { 
+	.badgeIcon {
+		height: 48px;
+		width: auto;
+	}
+	.f_optix, .f_contact {
+		border-bottom: 1px solid #fff;
+		margin-bottom: 20px;
+	}
+
+	.f_optixDesc {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.f_optixLogo {
+		display: block;
+	}
+ }
+/* MD */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.badgeIcon {
+		height: 36px;
+		width: auto;
+	}
+	.f_optix, .f_contact {
+		border-right: 1px solid #fff
+	}
+	.f_optixLogo {
+		width: 150px;
+		height: auto;
+	}
+	.n_optixLogo {
+		width: 190px;
+		height: auto;
+	}
+ }
+
+/* LG */
+@media (min-width: 980px) and (max-width: 1199px) {
+	.badgeIcon {
+		height: 36px;
+		width: auto;
+	}
+	.f_optixLogo {
+		display: block;
+		width: 170px;
+		height: auto;
+	}
+	.f_optix, .f_contact {
+		border-right: 1px solid #fff
+	}
+}
+
+
+/* XL */
+@media (min-width: 1200px) { 
+	.badgeIcon {
+		height: 48px;
+		width: auto;
+	}
+	.f_optixLogo {
+		width: 230px;
+		height: auto;
+	}
+	.f_optix, .f_contact {
+		border-right: 1px solid #fff
+	}
+
+ }
